@@ -1,0 +1,134 @@
+.nav {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px; 
+    flex-direction: column;
+    
+  }
+
+  @media (min-width: 768px) {
+    .nav {
+      flex-direction: row;
+    }
+  }
+
+
+.aPrincipal {
+    
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 1rem;     
+}
+
+.myName{
+  
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 1px solid #4a5568;
+    border-color: #4a5568;
+    
+     
+}
+
+.nav2{
+    /*display: flex;
+    text-decoration: none;
+    */
+    margin-left: auto;
+    margin-right: 16px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+    justify-content: flex-end;
+
+}
+
+.a2{
+ /*   background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-inline: 10px;
+    flex: auto;
+    */
+    
+    margin-right: 20px;
+    background-color: #6027fc;
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    border: none;  
+    
+          
+}
+.a2:hover{
+    color: #bbb6b6;
+}
+        
+
+.a3{
+    margin-right: 20px;
+    background-color: #6027fc;
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    border: none;
+    
+    
+}
+.a3:hover {
+    color: #bbb6b6;
+}
+
+.a4{
+    margin-right: 20px;
+    background-color: #6027fc;
+    color: #ffffff;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    border: none;    
+    
+      
+}
+.a4:hover {
+    color: #bbb6b6;
+}
+
+.header {
+    background-color: #343149;
+  }
+
+
